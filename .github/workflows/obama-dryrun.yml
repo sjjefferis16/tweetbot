@@ -27,10 +27,10 @@ jobs:
 
     - name: Post to Twitter
       env:
-        TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_OBAMA_ACCESS_TOKEN_KEY }}
-        TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_OBAMA_ACCESS_TOKEN_SECRET }}
-        TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_OBAMA_CONSUMER_KEY }}
-        TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_OBAMA_CONSUMER_SECRET }}
+        TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_CAT_ACCESS_TOKEN_KEY }}
+        TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_CAT_ACCESS_TOKEN_SECRET }}
+        TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CAT_CONSUMER_KEY }}
+        TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CAT_CONSUMER_SECRET }}
         GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         STATE_DB_GIST: "d34ccb38adf1b9ec9366b892b3e40ae6"
         MEMORY_DB_URL: "https://raw.githubusercontent.com/tomcook/nostalgiabot-obama/main/memories.json"
